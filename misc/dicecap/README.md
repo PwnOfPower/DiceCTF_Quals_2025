@@ -4,7 +4,9 @@
 Description:
 
 ```
-As DiceGang haven't won a CTF in 4 months, we've taken to more drastic measures to get to the top of the leaderboard - hacking our competitors! This pcap was gathered from a previous ``information gathering`` mission, can you find the flag?
+As DiceGang haven't won a CTF in 4 months, we've taken to more drastic measures 
+to get to the top of the leaderboard - hacking our competitors! 
+This pcap was gathered from a previous ``information gathering`` mission, can you find the flag?
 ```
 
 
@@ -106,7 +108,11 @@ The password is:1743367680LC_CTuser
 
 
 When you see the assembly code, you see the output is splitted in three parts:
+```
 <timestamp><locale><user>.
+```
+
+So we develop a python script to bruteforce the possible combinations.
 
 ```python
 import time
