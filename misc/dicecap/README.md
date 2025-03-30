@@ -10,7 +10,7 @@ This pcap was gathered from a previous ``information gathering`` mission, can yo
 ```
 
 
-Doing a `$ strings challenge.pcap | grep -i flag
+Doing a `$ strings challenge.pcap | grep -i flag`
 
 We saw a `flag.txt` file
 
